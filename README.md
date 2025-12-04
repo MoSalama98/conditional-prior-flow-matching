@@ -100,8 +100,8 @@ Our method achieves **state-of-the-art efficiency** at low sampling budgets:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/flowmatching_TMLR.git
-cd flowmatching_TMLR
+git clone https://github.com/MoSalama98/conditional-prior-flow-matching.git
+cd conditional-prior-flow-matching
 ```
 
 2. Install dependencies:
@@ -172,26 +172,28 @@ python train.py \
 ## Project Structure
 
 ```
-flowmatching_TMLR/
+conditional-prior-flow-matching/
 ├── train.py              # Main flow matching training script
 ├── train_mapper.py       # Projector/decoder training script
-├── dataset.py            # Dataset loading utilities
-├── neural_models.py      # Neural network model definitions
-├── metrics.py            # Evaluation metrics
 ├── requirements.txt      # Python dependencies
+├── assets/               # Figure assets
+│   ├── teaser_normal1.png
+│   └── teaser_ours1.png
 └── README.md            # This file
 ```
+
+**Note:** This repository contains the training scripts. The code imports from additional modules (`dataset.py`, `neural_models.py`, `metrics.py`) which are required dependencies. These modules should be provided separately or implemented according to your specific dataset and model architecture needs.
 
 ## Citation
 
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{your_paper_2024,
-  title={Flow Matching for Text-to-Image Generation},
-  author={Your Name and Co-authors},
+@article{issachar2025designing,
+  title={Designing a Conditional Prior Distribution for Flow-Based Generative Models},
+  author={Issachar, Noam and Salama, Mohammad and Fattal, Raanan and Benaim, Sagie},
   journal={Transactions on Machine Learning Research},
-  year={2024}
+  year={2025}
 }
 ```
 
@@ -207,5 +209,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact [your email].
+For questions or issues, please open an issue on GitHub or contact the authors.
 
