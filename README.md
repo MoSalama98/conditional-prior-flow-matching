@@ -29,8 +29,8 @@ Flow-based generative models have recently shown impressive performance for cond
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/flowmatching_TMLR.git
-cd flowmatching_TMLR
+git clone https://github.com/MoSalama98/conditional-prior-flow-matching.git
+cd conditional-prior-flow-matching
 ```
 
 2. Install dependencies:
