@@ -4,8 +4,6 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2502.09611-b31b1b.svg)](https://arxiv.org/abs/2502.09611)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official implementation of **"Designing a Conditional Prior Distribution for Flow-Based Generative Models"** published in TMLR.
-
 **Authors:** [Noam Issachar](https://noamiss.github.io/)*, [Mohammad Salama](https://github.com/MoSalama98)*, Raanan Fattal, Sagie Benaim  
 *Equal contribution  
 The Hebrew University of Jerusalem
